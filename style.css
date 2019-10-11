@@ -1,0 +1,33 @@
+.nav-wrapper {
+    background-color: dodgerblue;
+}
+
+.brand-logo {
+    margin-top: 5px;
+}
+
+h1.display-4 {
+    font-weight: bolder;
+}
+
+a.btn-primary {
+   text-align: center; 
+}
+
+a.btn {
+    background-color: dodgerblue;
+}
+
+.foot {
+    background-color: dodgerblue;
+    height: 30px;
+    width: 100%;
+    color: white;
+    text-align: center;
+    border-top: 1px solid rgb(218, 218, 218);
+}
+
+.pic {
+    float: left;
+    margin-right: 10px;
+}
