@@ -31,3 +31,8 @@ a.btn {
     float: left;
     margin-right: 10px;
 }
+
+div.jumbotron {
+    background-image: url();
+    height: 400px;
+}
