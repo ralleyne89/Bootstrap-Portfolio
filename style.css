@@ -14,7 +14,7 @@ a.btn-primary {
    text-align: center; 
 }
 
-a.btn {
+a.btn, .btn {
     background-color: dodgerblue;
 }
 
@@ -25,14 +25,42 @@ a.btn {
     color: white;
     text-align: center;
     border-top: 1px solid rgb(218, 218, 218);
+    margin-bottom: 0;
 }
 
 .pic {
     float: left;
-    margin-right: 10px;
+    margin-right: 15px;
+    border-radius: 5px;
 }
 
 div.jumbotron {
-    background-image: url();
+    background-image: url(https://i.pinimg.com/originals/bd/7f/60/bd7f605017e8f54e9af53f1aae946ea7.jpg);
     height: 400px;
+    margin-bottom: 0;
+}
+
+li a:hover {
+    text-decoration: none;
+}
+
+.form-container, div.jumbotron, div.list-group {
+    margin: 25px auto;
+    width: 70%;
+}
+
+label {
+    background-color: dodgerblue;
+    padding: 5px;
+    border-radius: 5px;
+    color: white;
+}
+
+.image {
+margin: 0 40%;
+}
+
+div.list-group {
+    font-size: 18px;
+    line-height: 28px; 
 }
